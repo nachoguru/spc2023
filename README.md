@@ -2,11 +2,11 @@
 
 ## (A Supabase Hackathon Joint)
 
-...in which I use the looming deadline of the Supabase Hackathon to finally hammer out an MVP for [a friend](http://everythingeven.com/2022spc.php) to manage his annual Stock Picking Contest for the CEO.ca community. 
+...in which I use the looming deadline of the Supabase Hackathon to finally hammer out an MVP for a friend to manage [his annual Stock Picking Contest](http://everythingeven.com/2022spc.php) for the CEO.ca community. 
 
 And if you're gonna make something to manage **one** SPC, why not make something to manage **ALL** the SPCs?
 
-![Obligatory Meme](https://imgflip.com/i/74r9ct)
+![Obligatory Meme](https://i.imgflip.com/74r9ct.jpg)
 
 ## MVP Goals:
 
@@ -30,7 +30,7 @@ Finally, to create an example for a few avowed non-programmers I know, to show t
 
 ## ToDo:
 
- * create a public Github with a README and at least one meme
+ * ~~create a public Github with a README and at least one meme~~
  * ???
  * profit!
  
