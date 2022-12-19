@@ -50,9 +50,9 @@ Analysis and visualization can get richer and richer over time, but for today th
 
 ## Hurdle #1: Seek First To Understand...
 
-![Nahhh... Oooff!](https://imgflip.com/i/74srim.jpg)
+It's hard to believe, but some people don't love SQL, or don't know it and don't want to learn it. And then there are people like me, who go too far in the other direction.
 
-It's hard to believe, but some people don't love SQL, or don't know it and don't want to learn it.
+![Nahhh... Oooff!](https://i.imgflip.com/74szfb.jpg)
 
 Supabase not only hosts and backs up and scales your PostgreSQL for you, it also provides a handy JS library so your server-side JS app can send JS to Supabase and get JS back and work with JS the whole time, even send JS to your client-side JS.
 
@@ -135,6 +135,7 @@ But for to
  * fail to get that to work, but collect notes to write that up in the future, try to make it easier for Deno users
  * meme #3
   * via https://imgflip.com/memegenerator/347322432/Jordi-Lafoge
+   * I know, it's actually [Geordi La Forge](https://en.wikipedia.org/wiki/Geordi_La_Forge) but that's not my page, I can't change it!
 
 ## ToDo:
 
