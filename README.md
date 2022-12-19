@@ -10,7 +10,11 @@ And if you're gonna make something to manage **one** SPC, why not make something
 
 ## Status: Not Even Worth Judging, Move Along
 
-But I'm glad to have finally started, and will keep plugging away over the holidays.
+The landing page is up at [https://spc2023.deno.dev/](https://spc2023.deno.dev/) but this isn't an application yet by any stretch of the imagination.
+
+The hardest part of any project is starting, so I'm glad to have finally started. It's pretty sweet to see Github and Deno Deploy and Supabase playing nicely together, so this was a useful exercise. I'll call it a night now on that high (for me) note.
+
+I will keep plugging away over the holidays, because I need to use this thing. I'd really like to see if I can get IEX's awesome Apperate stuff in here as well, and TradingView charts for the visual pizazz. 
 
 ## MVP Goals:
 
