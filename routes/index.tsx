@@ -1,23 +1,23 @@
 import { Head } from "$fresh/runtime.ts";
-import Counter from "../islands/Counter.tsx";
+//import Counter from "../islands/Counter.tsx";
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Fresh App</title>
+        <title>SPC2023 - Stock Picking Contest</title>
       </Head>
       <div class="p-4 mx-auto max-w-screen-md">
-        <img
-          src="/logo.svg"
-          class="w-32 h-32"
-          alt="the fresh logo: a sliced lemon dripping with juice"
-        />
         <p class="my-6">
-          Welcome to `fresh`. Try updating this message in the ./routes/index.tsx
-          file, and refresh.
+          Future home of a useful site for
+          anyone who wants to run their own
+          Stock Picking Contest.
         </p>
-        <Counter start={3} />
+        <img
+          src="https://memecreator.org/static/images/memes/5536741.jpg"
+          class="object-fill mx-auto"
+          alt="The stock market is made of people!"
+        />
       </div>
     </>
   );
