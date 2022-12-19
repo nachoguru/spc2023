@@ -48,15 +48,15 @@ Basic leaderboard and dashboard features to monitor progress of contest, updated
 
 Analysis and visualization can get richer and richer over time, but for today this MVP is just about taking the manual data entry work out of launching and managing a Stock Picking Contest, and building in progress tracking from Day One.
 
-## Hurdle #1: Seek First To Understand...
+## Day 1, Hurdle 1: Seek First To Understand...
 
 It's hard to believe, but some people don't love SQL, or don't know it and don't want to learn it. And then there are people like me, who go too far in the other direction.
 
 ![Nahhh... Oooff!](https://i.imgflip.com/74szfb.jpg)
 
-Supabase not only hosts and backs up and scales your PostgreSQL for you, it also provides a handy JS library so your server-side JS app can send JS to Supabase and get JS back and work with JS the whole time, even send JS to your client-side JS.
+Supabase not only hosts and backs up and scales your PostgreSQL for you, it also provides [a handy JS library](https://supabase.com/docs/reference/javascript/introduction) so your server-side JS app can send JS to Supabase and get JS back and work with JS the whole time, even send JS to your client-side JS.
 
-Since this is a Supabase hackathon, so you'd think I'd **start** by using their JS hotness, it's supa-powerful:
+This is a **Supabase** hackathon, so you'd think I'd *start* by using their JS hotness, it's supa-powerful:
 
 ```javascript
 const age = 99;
@@ -68,8 +68,7 @@ const { data, error } = await supabase
   .limit(100);
 ```
 
-But I suffer from ORM PTSD from my Python (SQLAlchemy) days and I would rather just write SQL whenever I can.
-
+But I suffer from ORM PTSD from my Python-SQLAlchemy days and I would rather just write SQL whenever I can.
 This summer, before I'd ever heard of Supabase, I heard on a podcast
 that the ES6 Tagged Template Strings I saw in [Postgres.js](https://deno.land/x/postgresjs)
 were not as terrifyingly vulnerable as they look at first glance:
@@ -91,18 +90,18 @@ Unfortunately I was unable to get Postgres.js or deno-postgres, or even dbeaver 
 to connect to my Supabase database from Linux over SSL/TLS.  I only succeeded in finding new ways to raise errors along the lines of:
 
 ```
-psql: error: connection to server at "db.redacted.supabase.co" (35.xxx.250.yyy), port 5432 failed: Connection refused
+psql: error: connection to server at "db.redacted.supabase.co" (35.xxx.250.yyy), port 5432
+  failed: Connection refused
 	Is the server running on that host and accepting TCP/IP connections?
 ```
 
 So I switched to Supabase-JS and my test query **just worked**, and while I couldn't easily see the
-traffic between my Deno code and Supabase's servers, I choose to believe (for tonight) that those connections are end-to-end encrypted.
-I'd want to test that more thoroughly before using all this with production data, of course.
+traffic between my Deno code and Supabase's servers, I did specify an https:// URL for it to use.
+I'll choose to believe (for tonight) that those connections are end-to-end encrypted.
+I'd want to test that more thoroughly before using all this with production data.
 
 I still would really like to make provably secure, direct connections to PostgreSQL on Supabase dbs outside of their JS API client,
 so if anyone can link me to the One Simple Trick I was missing, please do.
-
-But for to
 
 ## Non-Goals
 
@@ -135,7 +134,7 @@ But for to
  * fail to get that to work, but collect notes to write that up in the future, try to make it easier for Deno users
  * meme #3
   * via https://imgflip.com/memegenerator/347322432/Jordi-Lafoge
-   * I know, it's actually [Geordi La Forge](https://en.wikipedia.org/wiki/Geordi_La_Forge) but that's not my page, I can't change it!
+   * I know, it's actually [Geordi La Forge](https://en.wikipedia.org/wiki/Geordi_La_Forge) but that's not my page. I can't change it!
 
 ## ToDo:
 
