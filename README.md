@@ -1,24 +1,58 @@
-# Stock Picking Contest 2023
+# Stock Picking Contest 2023 (and beyond)
 
-## (A Supabase Hackathon Joint)
+An ongoing attempt hammer out an MVP for a friend to manage his [annual Stock Picking Contest](http://everythingeven.com/2022spc.php) for the CEO.ca community.
 
-...in which I use the looming deadline of the Supabase Hackathon to escape analysis paralysis, and finally hammer out an MVP for a friend to manage [his annual Stock Picking Contest](http://everythingeven.com/2022spc.php) for the CEO.ca community.
+And if you're gonna make something to manage **one** SPC, why not make something to manage **ANY** such contest?
 
-And if you're gonna make something to manage **one** SPC, why not make something to manage **ALL** the SPCs?
+## Status: This Supabase Hackathon 6 Entry Is Incomplete... Don't Judge!
 
-![Obligatory Meme](https://i.imgflip.com/74r9ct.jpg)
+I mean, I don't mean *"don't be mean"...*
 
-## Status: Not Even Worth Judging, Move Along
+I'm saying that if you're a hackathon judge reading this, you can safely skip this incomplete project, because this version had changes after the deadline, and so is ineligible, and it's far from done.
 
-The landing page is up at [https://spc2023.deno.dev/](https://spc2023.deno.dev/) but this isn't an application yet by any stretch of the imagination.
+But wait! while/if I have the attention of a Deno or Supabase team member, I have three suggestions for you below, from a user just starting out on your platforms.
 
-The hardest part of any project is starting, so I'm glad to have finally started. It's pretty sweet to see Github and Deno Deploy and Supabase playing nicely together, so this was a useful exercise. I'll call it a night now on that high (for me) note.
+I also moved my [day 1 notes](docs/progress/2022-12-18.md) to their own page as I prep for continued work on this.
 
-I will keep plugging away over the holidays, because I need to use this thing. I'd really like to see if I can get IEX's awesome Apperate stuff in here as well, and TradingView charts for the visual pizazz. 
+### A Suggestion For Your Documentation
 
-## MVP Goals:
+I know this is a never-ending job and you are doing great, keep it all up, but I have one suggestion: I recommend you please put a **date**, or a **version number**, or **both** on every bit of documentation, every blog post, every tutorial, every YouTube video or podcast.
 
-First, to [Learn In Public](https://www.swyx.io/learn-in-public) :
+### A Suggestion For Your Technical Support
+
+I don't think Discord is working. It certainly won't in the long term. As Swyx points out in [Learn In Public](https://www.swyx.io/learn-in-public), it's one of those walled gardens that we should be moving away from, not towards.
+
+I'd also add that it promotes the worst kind of [Continuous Partial Attention](https://en.wikipedia.org/wiki/Continuous_partial_attention) by lining up all of a user's interests -- every shiny new technology, interest, fandom, and every other bit of brain candy outside of tech -- alongside your would-be communities.
+
+I'm not talking about Github issues, but funnelling all the other noise that occasionally leads someone in a support role to say "could you file an issue" -- but mostly doesn't require that, so you don't want issues to be your only support channel or the signal-to-noise ratio will be unbearable.
+
+Discord is where the people are, sure, and it's definitely a better choice for discussion than Slack, Telegram, IRC, Twitter, and probably better even than Reddit or a self-hosted Mattermost instance. But given we all already have to watch many Discord channels in many Discord servers, and also, umpteen Github projects, StackExchange sites, and soon a hairy herd of Mastodon, a plethora of Pleromas...
+
+I think you should get very deliberate about managing your **support** traffic *real soon now*. You are not currently building a knowledgebase at all. Or if you are, I just missed it, and I'm somewhat representative of your target audience, right at the mouth of the the onboarding funnel.
+
+Maybe [Discourse](https://www.discourse.org/) or one of its competitors would be a better fit for the support side of things? 
+
+### A Suggestion For Your Team(s)
+
+Aaaannnd once again I'm spending another day writing more in my README than I am in my code. 
+
+This Nachoguru persona is based on the idea of a helper who is always learning, always maintains a Beginner's Mind. While I might actually be helpful to someone in a tech support conversation, I'm not there to do their job for them, or to always be their "guru", but to help them learn to learn, to believe they can, to see them outgrow me.
+
+Especially in the areas of programming literacy and financial numeracy / literacy. My dream job would be to write about programming, software, databases, and finance all day long. I can't make what you've made, but I *can* contribute to Open Source by helping stressed out maintainers and other types of creators update their docs and support their users. My main focus is the post-Node, post-cloud JS ecosystem that is best embodied by Deno, Supabase, and even IEX Apperate, which elevate their users beyond just being AWS-certified configurators.
+
+So, uh, I guess I am saying out loud in public that I am ready for a pivot from decades of closed-source, full-stack enterprise software consulting. I would *freakin' love* to help you and others solve the above problems, but I have not been confident enough to apply for your teams yet. I have been self-employed programming for clients since 1995, but don't yet feel I can code with your tools at a level that is worth your money. So I do client work from 9-5, and only get to make progress with your tools on evenings and weekends.
+
+I have a dozen demo apps I'd love to create, this is just the first. I'll document my the learning process as I go, and fix documentation as I go, and open source my code. Doing that for Deno or Supabase or IEX would be an epic win.
+
+I know such a role must be earned, so I'll keep doing this work and logging my progress, and I will keep checking for job postings where I can help you solve problems like the ones above.
+
+I'm grateful to the Hackathon for giving me a deadline that lit a fire under me to finally start playing with all these cool tools.
+
+Happy Holidays, stay warm out there!
+
+## Project Goals:
+
+To [Learn In Public](https://www.swyx.io/learn-in-public) :
 
  * using Github public repos (this is my first, sweet)
  * [Deno](https://deno.land/)
@@ -32,15 +66,8 @@ First, to [Learn In Public](https://www.swyx.io/learn-in-public) :
 
 These technologies overlap in many ways, so I may not hit the perfect combination of their capabilities on the first attempt. Feedback is welcome, and I'll iterate from here.
 
-Also to hopefully build something useful, to help others, uh, help *other* others, by showing that managing their own saving / investing / speculation can be fun, and even profitable. Okay, not this year, but eventually, if you put in the work.
 
-If you subscribe to any variant of the Efficient Markets hypothesis, you can either close this page now or try following any three stocks for a year to disabuse yourself of that misconception.  I mean:
-
-![The stock market is made of people](https://memecreator.org/static/images/memes/5536741.jpg)
-
-Finally, this sprint is an attempt to show myself that gluing together existing services can be more productive than my usual approach of building and hosting everything on my own servers.
-
-## More Specifically: The Specs
+## Feature Goals / User Stories
 
 A user with a `contest_admin` role should be able to create a `contest` and manage its configuration/settings.
 
@@ -52,65 +79,11 @@ Basic leaderboard and dashboard features to monitor progress of contest, updated
 
 Analysis and visualization can get richer and richer over time, but for today this MVP is just about taking the manual data entry work out of launching and managing a Stock Picking Contest, and building in progress tracking from Day One.
 
-## Day 1, Hurdle 1: Seek First To Understand...
-
-It's hard to believe, but some people don't love SQL, or don't know it and don't want to learn it. And then there are people like me, who go too far in the other direction.
-
-![Nahhh... Oooff!](https://i.imgflip.com/74szfb.jpg)
-
-Supabase not only hosts and backs up and scales your PostgreSQL for you, it also provides [a handy JS library](https://supabase.com/docs/reference/javascript/introduction) so your server-side JS app can send JS to Supabase and get JS back and work with JS the whole time, even send JS to your client-side JS.
-
-This is a **Supabase** hackathon, so you'd think I'd *start* by using their JS hotness, it's supa-powerful:
-
-```javascript
-const age = 99;
-const { data, error } = await supabase
-  .from('users')
-  .select('id', 'name', 'age')
-  .gt('age', age)
-  .order('age', { ascending: false })
-  .limit(100);
-```
-
-But I suffer from ORM PTSD from my Python-SQLAlchemy days and I would rather just write SQL whenever I can.
-This summer, before I'd ever heard of Supabase, I heard on a podcast
-that the ES6 Tagged Template Strings I saw in [Postgres.js](https://deno.land/x/postgresjs)
-were not as terrifyingly vulnerable as they look at first glance:
-
-```javascript
-const age = 99;
-const users = await sql`
-  select id, name, age
-  from users
-  where age > ${ age }
-  order by age desc limit 100
-`;
-```
-
-They are [serialized behind the scenes](https://deno.land/x/postgresjs@v3.3.2#queries) to prepared statements that help prevent SQL Injection Attacks.
-So I thought, sweet, that's what I'll use when I build something with PostgreSQL on Deno.
-
-Unfortunately I was unable to get Postgres.js or deno-postgres, or even dbeaver (JDBC) or, you know, that obscure hipster client `psql`
-to connect to my Supabase database from Linux over SSL/TLS.  I only succeeded in finding new ways to raise errors along the lines of:
-
-```
-psql: error: connection to server at "db.redacted.supabase.co" (35.xxx.250.yyy), port 5432
-  failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?
-```
-
-So I switched to Supabase-JS and my test query **just worked**, and while I couldn't easily see the
-traffic between my Deno code and Supabase's servers, I did specify an https:// URL for it to use.
-I'll choose to believe (for tonight) that those connections are end-to-end encrypted.
-I'd want to test that more thoroughly before using all this with production data.
-
-I still would really like to make provably secure, direct connections to PostgreSQL on Supabase dbs outside of their JS API client,
-so if anyone can link me to the One Simple Trick I was missing, please do.
 
 ## Non-Goals
 
  * ~~ORMs or ORM-like JS~~ fine
- * personally identifying information in any form other than an email address
+ * personally identifying information in any form other than a user name & email address
  * prize administration or fulfilment
  * payments (maybe next year)
  * real-time stock data
@@ -120,35 +93,16 @@ so if anyone can link me to the One Simple Trick I was missing, please do.
  * tests
  * perfection
 
-## Done So Far:
+## To Do
 
- * create a public Github with a README and at least one meme
-  * via https://imgflip.com/memegenerator/137479224/yo-dawg-i-heard-you-like
- * generate initial Fresh project template
-  * via https://fresh.deno.dev/docs/getting-started/create-a-project
- * create a new, empty Supabase database project
-  * via https://supabase.com/docs/guides/database/connecting-to-postgres
- * outline initial features above
- * resist the urge to write all day instead of programming
- * meme #2
-  * via https://www.memecreator.org/template/soylent-green
- * attempt to add Supabase to this project: store connection settings, without putting sekrits in code
- * study Deno approaches to environment variables in dev vs. Deno Deploy
- * fail to resist the urge to use a non-Supabase PostgreSQL library to directly connect to PostgreSQL over SSL/TLS
- * fail to get that to work, but collect notes to write that up in the future, try to make it easier for Deno users
- * meme #3
-  * via https://imgflip.com/memegenerator/347322432/Jordi-Lafoge
-   * I know, it's actually [Geordi La Forge](https://en.wikipedia.org/wiki/Geordi_La_Forge) but that's not my page. I can't change it!
-
-## ToDo:
-
+ * bring in IEX Apperate for initial "Stock Symbol Search" feature
+ * compare PostgreSQL connection techniques, libraries
  * get a temporary public install of the running test page onto Deno Deploy, to iron out dev vs. prod differences
  * create initial PostgreSQL model in Supabase
  * build in all that RLS goodness
  * set up magic link email logins with Supabase Auth / Fresh
- * bring in IEX Apperate for initial "Stock Symbol Search" feature
  * use TradingView stock widget for charting
+ * periodically move long README notes out to daily progress files
  * ???
  * profit!
- 
-K enough text... gotta get to work.
+ * ...thereby making the world a better place through minimal message transport layers :)
